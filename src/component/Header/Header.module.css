@@ -1,0 +1,58 @@
+header {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    
+    & .architects {
+        position: absolute;
+        display: flex;
+        flex-flow: row wrap;
+        font-size: 36px;
+        
+        
+        
+        
+        
+
+        & h3 {
+        background-color: black;
+        color: #fff !important;
+        background-color: #000 !important;
+        padding: 8px 16px !important;
+        opacity: 0.75;
+        
+        
+    }
+
+        & h6 {
+        padding: 8px 16px !important;
+        opacity: 0.75;
+        color: #fff !important;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 36px;
+        
+    }
+    & img {
+        height: 100vh;
+        object-fit: cover;
+        
+    }
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+header {
+    flex-flow: column wrap;
+}
+
+}
+
+
+
